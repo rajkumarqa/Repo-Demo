@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Test</td><td class="numi">9</td><td class="numi">9</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">163.2 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Test &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">com.LVweb.TestCases.HomePageTest</td><td><a href="#m1"><b>messageCenterClickTest</b>  </a></td><td class="numi">1</td><td>1532094156433</td><td class="numi">1322</td></tr>
+<tr><th colspan="4">Test &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="2">com.LVweb.TestCases.LoginPageTest</td><td><a href="#m2"><b>logintest</b>  </a></td><td class="numi">1</td><td>1532094010651</td><td class="numi">9667</td></tr><tr class="passedodd"><td><a href="#m3"><b>loginoffTest</b>  </a></td><td class="numi">1</td><td>1532094021007</td><td class="numi">2212</td></tr>
+<tr class="passedeven"><td rowspan="7">com.LVweb.TestCases.HomePageTest</td><td><a href="#m4"><b>logoDisplayTest</b>  </a></td><td class="numi">1</td><td>1532094038666</td><td class="numi">44</td></tr><tr class="passedeven"><td><a href="#m5"><b>announcementClickTest</b>  </a></td><td class="numi">1</td><td>1532094052462</td><td class="numi">1653</td></tr><tr class="passedeven"><td><a href="#m6"><b>faqClickTest</b>  </a></td><td class="numi">1</td><td>1532094068088</td><td class="numi">894</td></tr><tr class="passedeven"><td><a href="#m7"><b>estBenefitClickTest</b>  </a></td><td class="numi">1</td><td>1532094084402</td><td class="numi">2261</td></tr><tr class="passedeven"><td><a href="#m8"><b>penSummaryClickTest</b>  </a></td><td class="numi">1</td><td>1532094101580</td><td class="numi">1385</td></tr><tr class="passedeven"><td><a href="#m9"><b>persInfoClickTest</b>  </a></td><td class="numi">1</td><td>1532094122155</td><td class="numi">3773</td></tr><tr class="passedeven"><td><a href="#m10"><b>resourcesClickTest</b>  </a></td><td class="numi">1</td><td>1532094140310</td><td class="numi">2295</td></tr>
+</table>
+<h1>Test</h1>
+<h2 id="m1">com.LVweb.TestCases.HomePageTest:messageCenterClickTest</h2>
+<div style="padding-left:3em">
+<p>expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at org.testng.Assert.assertTrue(Assert.java:52)
+<br/>at com.LVweb.TestCases.HomePageTest.messageCenterClickTest(HomePageTest.java:86)
+<br/>29 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">com.LVweb.TestCases.HomePageTest:penSummaryClickTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">com.LVweb.TestCases.HomePageTest:resourcesClickTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">com.LVweb.TestCases.LoginPageTest:loginoffTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">com.LVweb.TestCases.HomePageTest:logoDisplayTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">com.LVweb.TestCases.HomePageTest:announcementClickTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">com.LVweb.TestCases.HomePageTest:persInfoClickTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">com.LVweb.TestCases.LoginPageTest:logintest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">com.LVweb.TestCases.HomePageTest:estBenefitClickTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">com.LVweb.TestCases.HomePageTest:faqClickTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

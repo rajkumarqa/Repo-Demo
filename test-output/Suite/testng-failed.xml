@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.LVweb.Util.Listener"/>
+    <listener class-name="com.LVweb.Util.ExtentReport"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.LVweb.TestCases.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.LVweb.TestCases.LoginPageTest -->
+      <class name="com.LVweb.TestCases.HomePageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="logoDisplayTest"/>
+        </methods>
+      </class> <!-- com.LVweb.TestCases.HomePageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

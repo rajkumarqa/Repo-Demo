@@ -1,0 +1,8 @@
+com\LVweb\TestCases\MessagePageTest.class
+com\LVweb\TestCases\HomePageTest.class
+OtherTests\getAttributeConcept.class
+com\LVweb\TestCases\EstimateBenefitTest.class
+OtherTests\StaleElementException.class
+com\LVweb\TestCases\LoginPageTest.class
+OtherTests\Employee.class
+OtherTests\SikuliConcepts.class
