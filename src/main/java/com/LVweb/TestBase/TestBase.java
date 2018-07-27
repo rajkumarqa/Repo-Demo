@@ -39,7 +39,7 @@ public class TestBase {
 		
 		if (browsername.contains("chrome")) 
 		{
-			System.setProperty("webdriver.chrome.driver", "C:\\Selenium Software\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "D:\\Selenium Software\\chromedriver.exe");
 			 driver =new ChromeDriver();
 			
 			/*//1.Define desired capabilities
