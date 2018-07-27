@@ -30,6 +30,7 @@ public class Employee {
 		arr.add(new Employee("prabha", 20,"Dev"));
 		arr.add(new Employee("Mani", 26, "admin"));
 		arr.add(new Employee("Mani", 26, "admin"));
+		arr.add(new Employee("kumar", 30, "QA"));
 		
 		for(int i=0;i<arr.size();i++)
 			
